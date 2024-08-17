@@ -25,6 +25,13 @@ export default function Header(){
                                 <li><a href="#" className='hover:text-gray-400'>Booking </a>  </li>
                             </ul>
                         </div>
+                        <div className='absolute right-20 columns-5 top-10 min-md:hidden'>
+                        
+                        <a href='#' className='text-white'><FaInstagram/></a>
+                        <a href="#" className="text-white"><FaFacebookF /></a>
+                        <a href="#" className="text-white"><FaYoutube /></a>
+                        <a href="#" className="text-white"><FaTwitter /></a>
+                </div>
                     </div>
                 
                     <div className="md:hidden">
@@ -52,8 +59,11 @@ export default function Header(){
                         <li><a href="#" className='hover:text-gray-400'>Restuarant </a> </li>
                     </ul>
                 </div>
+             
+
                
             </div>
+
         </div>
     </div>
     )
