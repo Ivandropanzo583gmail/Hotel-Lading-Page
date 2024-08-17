@@ -3,8 +3,8 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10 mt-20">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    <footer className="bg-gray-900 text-white py-10 mt-20 ">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 ml-20">
         {/* Logo and Description */}
         <div>
           <h2 className="text-xl font-bold flex items-center">
@@ -32,11 +32,11 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold mb-4">Useful Links</h3>
           <ul className="space-y-2">
-            <li className="hover:text-gray-400 cursor-pointer">Gallery</li>
-            <li className="hover:text-gray-400 cursor-pointer">Blogs</li>
-            <li className="hover:text-gray-400 cursor-pointer">About</li>
-            <li className="hover:text-gray-400 cursor-pointer">Image</li>
-            <li className="hover:text-gray-400 cursor-pointer">Rooms</li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Gallery</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Blogs</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">About</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Image</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Rooms</a></li>
           </ul>
         </div>
 
@@ -44,11 +44,11 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold mb-4">Services</h3>
           <ul className="space-y-2">
-            <li className="hover:text-gray-400 cursor-pointer">Restaurant</li>
-            <li className="hover:text-gray-400 cursor-pointer">Coffee Shop</li>
-            <li className="hover:text-gray-400 cursor-pointer">Car Wash</li>
-            <li className="hover:text-gray-400 cursor-pointer">Cycle Rent</li>
-            <li className="hover:text-gray-400 cursor-pointer">Car Rent</li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Restaurant</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Coffee Shop</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Car Wash</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Cycle Rent</a></li>
+            <li className="hover:text-gray-400 cursor-pointer"><a href="#">Car Rent</a></li>
           </ul>
         </div>
 
