@@ -6,10 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        pulse: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0.5 },
+        },
+      },
+      animation: {
+        pulse: 'pulse 2s infinite',
+      },
       backgroundImage: {
         'Imagem': "url('./unsplash_kKvQJ6rK6S4.png')",
         
       }
+      
     },
   },
   plugins: [],

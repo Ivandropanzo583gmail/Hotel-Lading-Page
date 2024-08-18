@@ -17,11 +17,13 @@ export default function Header(){
                     </div>
                     <div className="hidden md:flex ">
                         <div className=" absolute left-20 top-10 columns-8">
-                            <ul className="text-white ">
+                            <ul className="text-gray-300 ">
                                 <li><a href="#" className='hover:text-gray-400'>Home </a>  </li>
                                 <li><a href="#" className='hover:text-gray-400'>Rooms & Sultes </a>  </li>
                                 <li><a href="#" className='hover:text-gray-400'>Services </a>  </li>
-                                <li><a href="#" className='hover:text-gray-400'>About </a>  </li>
+                                <li><a href="#" className='hover:text-gray-400 text-white'><button className="bg-blue-500 text-white font-bold py-2 px-4 rounded transform transition duration-500 hover:scale-110 hover:bg-blue-700">
+      About Us
+    </button> </a>  </li>
                                 <li><a href="#" className='hover:text-gray-400'>Booking </a>  </li>
                             </ul>
                         </div>
@@ -51,7 +53,7 @@ export default function Header(){
                 )}
             </nav>
             <div className="flex justify-center items-center">
-                <h1 className="text-orange-500 text-2xl md:absolute md:top-32 absolute top-52 "> Services</h1>
+                <h1 className="text-orange-500 text-2xl md:absolute md:top-32 absolute top-52 "> About Us</h1>
                 <div className="flex justify-center items-center ">
                     <ul className="text-white md:absolute md:top-40 columns-3 absolute top-64">
                         <li><a href="#" className='hover:text-gray-400'>Home</a> </li>
@@ -63,6 +65,7 @@ export default function Header(){
 
                
             </div>
+            
 
         </div>
     </div>
