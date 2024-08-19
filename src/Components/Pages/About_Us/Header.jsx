@@ -24,7 +24,7 @@ export default function Header(){
                                 <li><a href="#" className='hover:text-gray-400 text-white'><button className="bg-blue-500 text-white font-bold py-2 px-4 rounded transform transition duration-500 hover:scale-110 hover:bg-blue-700">
       About Us
     </button> </a>  </li>
-                                <li><a href="#" className='hover:text-gray-400'>Booking </a>  </li>
+                                <li><a href={"/Cabeçalho"} className='hover:text-gray-400'>Booking </a>  </li>
                             </ul>
                         </div>
                         <div className='absolute right-20 columns-5 top-10 min-md:hidden'>
